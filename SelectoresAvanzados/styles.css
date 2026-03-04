@@ -1,0 +1,37 @@
+/*Selector por clase*/
+
+.ingrediente-faltante{
+    color: red;
+}
+
+/*Selector por id*/
+
+#ingrediente-secreto{
+    color: blue;
+}
+
+/*SELECTOR POR ATRIBUTO*/
+
+img [src$=".png"]{
+    width: 20%;
+    height: 100%;
+}
+
+/*SELECTOR POR HIJO DIRECTO*/
+
+ul > li{
+    color: green;
+}
+
+
+/*SELECTOR ADYACENTE  Se le otorga al elemento p que sigue inmediatamente a h2*/ 
+
+h2 + p{
+    color: blue;
+}
+
+
+/*SELECTOR HERMANO GENERAL   Se le otorga a todos los elementos p que siguen a h1*/ 
+h1 ~ p{
+    color: red;
+}
